@@ -1,0 +1,32 @@
+
+.conteudoMenu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;    
+    background: #7a242482;
+    position:fixed;
+    z-index: 3;
+    margin-top: -1px;
+    
+}
+
+.conteudoMenu ul {
+    display: flex;
+    font-size: 14px;
+    margin: 0;
+    justify-content: space-around;
+    width: 50%;
+    list-style-type: none;
+}
+
+.conteudoMenu ul li a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.conteudoMenu ul li a:hover{
+    color: #fff;
+}

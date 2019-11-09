@@ -1,0 +1,16 @@
+.bnd-item img{
+    width: 100%;
+}
+
+.logotipo {
+    width: 100%;
+    display: flex;
+    transform: translate(0%, -799%);
+    position: relative;
+    margin: 0 auto;
+}
+
+.logotipo img {
+    width: 25%;
+    margin: 0 auto;
+}
