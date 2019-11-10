@@ -18,12 +18,7 @@ class Vitrine extends React.Component {
         <div>
           <img></img>
         </div>
-        <div>
-          <img></img>
-        </div>
-        <div>
-          <img></img>
-        </div>
+       
 
       </Slider>
     );
