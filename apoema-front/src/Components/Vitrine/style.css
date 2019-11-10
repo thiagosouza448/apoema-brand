@@ -4,7 +4,51 @@
 }
 
 
-.vitrine-item img {
-    width: 55%;
+a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+a .vitrine-item div {
+    max-width: 23vw;
     margin: 0 auto;
 }
+
+
+
+
+a .vitrine-item:hover {
+    opacity: 0.8;
+    transition: .8s;
+}
+
+
+.vitrine-item img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+h3{
+    text-align: center;
+    font-weight: 500;
+    padding: 12px 0px;
+}
+h4 {
+    text-align: center;
+    position: relative;
+    top: -30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+    opacity: 0;
+    transition: .8s;
+    background: #801700;
+    padding: 4px;
+}
+
+a .vitrine-item:hover h4 {
+    opacity: 1;
+}
+
