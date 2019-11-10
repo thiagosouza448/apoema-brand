@@ -1,16 +1,36 @@
-.bnd-item img{
-    width: 100%;
-}
-
 .logotipo {
-    width: 100%;
-    display: flex;
-    transform: translate(0%, -799%);
-    position: relative;
-    margin: 0 auto;
+  width: 100%;
+  display: flex;
+  transform: translate(0%, -848%);
+  position: relative;
+  margin: 0 auto;
 }
 
 .logotipo img {
-    width: 25%;
-    margin: 0 auto;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.bnd-item img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.prev-and-next {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -745px;
+}
+.prev-and-next button.button {
+    width: 35px;
+    height: 112px;
+    border-radius: 50%;
+    background: #ff000000;
+}
+
+svg.flickity-button-icon {
+    fill: #8c3b3b;
+    
 }

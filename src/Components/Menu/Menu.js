@@ -9,16 +9,16 @@ class Menu extends Component {
         
           <ul>
             <li>
-              <a href="">A MARCA</a>
+              <a href="#teste">A MARCA</a>
             </li>
             <li>
-              <a href="">COLEÇÕES</a>
+              <a href="#teste">COLEÇÕES</a>
             </li>
             <li>
-              <a href="">SOBRE</a>
+              <a href="#teste">SOBRE</a>
             </li>
             <li>
-              <a href="">CONTATO</a>
+              <a href="#teste">CONTATO</a>
             </li>
           </ul>
         </div>
