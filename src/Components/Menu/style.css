@@ -19,6 +19,14 @@
     justify-content: space-around;
     width: 50%;
     list-style-type: none;
+    width: 43%;
+}
+
+
+.conteudoMenu ul li {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .conteudoMenu ul li a {
@@ -30,3 +38,7 @@
 .conteudoMenu ul li a:hover{
     color: #fff;
 }
+
+
+
+

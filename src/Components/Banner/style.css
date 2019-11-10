@@ -1,13 +1,13 @@
 .logotipo {
   width: 100%;
   display: flex;
-  transform: translate(0%, -848%);
+  transform:translate(0%, -995%);
   position: relative;
   margin: 0 auto;
 }
 
 .logotipo img {
-  width: 25%;
+  width: 16%;
   margin: 0 auto;
 }
 

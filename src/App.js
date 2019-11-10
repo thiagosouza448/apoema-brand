@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Menu from './Components/Menu/Menu';
 import Banner from './Components/Banner/Banner';
+import Thumb from './Components/Thumb/Thumb';
 
 
 
@@ -13,6 +14,7 @@ function App() {
 
     <Menu />
     <Banner />
+    < Thumb />
      
     </div>
   );

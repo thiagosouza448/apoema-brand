@@ -1,0 +1,19 @@
+.SectionThumb {
+    display: flex;
+    width: 100%;
+}
+
+.contentThumb {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+.contentThumb div img {
+    width: 70%;
+    margin: 10px auto;
+}
+
+.contentThumb div {
+    display: flex;
+    width: 33%;
+}
