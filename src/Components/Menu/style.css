@@ -32,6 +32,7 @@
 .conteudoMenu ul li a {
     text-decoration: none;
     color: #000;
+    transition: .6s;
 
 }
 

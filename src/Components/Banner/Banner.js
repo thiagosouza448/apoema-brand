@@ -44,6 +44,7 @@ class Banner extends Component {
                     <img alt="Logotipo" src={Logo}></img>
                 </div>
 
+
                 <div className="prev-and-next" style={{ textAlign: "center" }}>
                     <button className="button" onClick={this.previous}>
                         <svg className="flickity-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" className="arrow"></path></svg>
