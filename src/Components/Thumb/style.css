@@ -6,10 +6,9 @@
 .contentThumb {
     display: flex;
     justify-content: space-around;
-    margin: 40px;
 }
 .contentThumb div img {
-    width: 70%;
+    width: 96%;
     margin: 10px auto;
 }
 
