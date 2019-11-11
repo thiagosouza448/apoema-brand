@@ -17,9 +17,10 @@ function App() {
 
     <Menu />
     <Banner />
+    <Vitrine />
     < Bottoms/>
     < Thumb />
-    <Vitrine />
+  
      
     </div>
   );

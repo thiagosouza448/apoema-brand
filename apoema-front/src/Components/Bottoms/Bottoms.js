@@ -5,10 +5,16 @@ import Logo from '../../assets/apoema.png'
 class Bottoms extends Component {
   render() {
     return (
-      <div className="SectionBottom">
+
+<div  id="aMarca" >
+    <h2>A MARCA</h2>
+          <div  className="SectionBottom">
+
+      
         <div className="itemBottom">
          <div> <img alt="Apoema Sobre" src={Logo}></img></div>
-          <h3>A marca</h3>
+         <h3>A MARCA</h3>
+
           <p>
             Eu dou dinheiro pra minha filha. Eu dou dinheiro pra ela viajar,
             então é... é... Já vivi muito sem dinheiro, já vivi muito com
@@ -36,6 +42,7 @@ class Bottoms extends Component {
             senhora ganha R$10 mil por mês. -Dilma: O que que é R$10 mil?
           </p>
         </div>
+      </div>
       </div>
     );
   }

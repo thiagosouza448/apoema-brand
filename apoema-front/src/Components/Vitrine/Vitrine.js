@@ -35,7 +35,7 @@ class Vitrine extends React.Component {
       slidesToScroll: 4
     };
     return (
-      <div className="ContentVitrine">
+      <div id="ancorContato" className="ContentVitrine">
         <h3> APOEMA A CULTURA PARAENSE</h3>
 
         <Slider {...settings}>
