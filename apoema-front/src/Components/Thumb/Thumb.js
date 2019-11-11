@@ -7,7 +7,7 @@ import Thumb3 from "../../assets/2019_apoema_FMZT0310.jpg";
 class Thumb extends Component {
   render() {
     return (
-      <div className="SectionThumb">
+      <div  id="sobreAmarca"className="SectionThumb">
         <div className="contentThumb">
           <div >
             <a className="image-hover img-zoom-in" href="google.com">

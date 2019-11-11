@@ -1,24 +1,37 @@
-
 * {
-  padding:0;
-  margin:0;
-  vertical-align:baseline;
-  list-style:none;
-  border:0;
-  }
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+}
 .App {
   max-width: 1366px;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Champagne & Limousines", serif;
   display: block;
   margin: 0 auto;
   /* border: 1px solid black; */
   overflow: hidden;
-
 }
 
 .wrapper {
- max-width: 1366px;
+  max-width: 1366px;
   display: block;
   margin: 0 auto;
   /* border: 1px solid black; */
+}
+
+@font-face {
+  font-family: "Champagne & Limousines";
+  src: url("//db.onlinewebfonts.com/t/4bc98977ba557db3b2f5bb66bff54e25.eot");
+  src: url("//db.onlinewebfonts.com/t/4bc98977ba557db3b2f5bb66bff54e25.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/4bc98977ba557db3b2f5bb66bff54e25.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/4bc98977ba557db3b2f5bb66bff54e25.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/4bc98977ba557db3b2f5bb66bff54e25.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/4bc98977ba557db3b2f5bb66bff54e25.svg#Champagne & Limousines")
+      format("svg");
 }
