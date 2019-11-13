@@ -6,6 +6,7 @@ import Banner from './Components/Banner/Banner';
 import Thumb from './Components/Thumb/Thumb';
 import Bottoms from './Components/Bottoms/Bottoms';
 import Vitrine from './Components/Vitrine/Vitrine';
+import Titulo from './Components/Titulo/Titulo';
 
 
 
@@ -20,6 +21,7 @@ function App() {
     <Vitrine />
     < Bottoms/>
     < Thumb />
+    <Titulo />
   
      
     </div>
