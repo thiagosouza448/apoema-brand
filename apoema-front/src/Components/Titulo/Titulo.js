@@ -4,22 +4,19 @@ import React, { Component} from 'react';
 class Titulo extends Component{
 
 
+
     render(){
 
-        return (
+        return(
 
 
-            <h1>TESTE  MATHEUS </h1>
-            <h1>TESTE  MATHEUS </h1>
-            <h1>TESTE  MATHEUS </h1>
-
-
+            <div>teste</div>
 
         );
 
+
     }
-
-
 }
+
 
 export default Titulo;
