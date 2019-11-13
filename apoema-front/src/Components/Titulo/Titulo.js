@@ -10,6 +10,8 @@ class Titulo extends Component{
 
 
             <h1>TESTE  MATHEUS </h1>
+            <h1>TESTE  MATHEUS </h1>
+            <h1>TESTE  MATHEUS </h1>
 
 
 
