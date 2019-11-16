@@ -7,7 +7,7 @@ class Bottoms extends Component {
     return (
 
 <div  id="aMarca" >
-    <h2>A MARCA</h2>
+    <h3>A MARCA</h3>
           <div  className="SectionBottom">
 
       

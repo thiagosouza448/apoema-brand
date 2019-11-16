@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import Banner1 from "../../assets/2019_apoema_FMZT0259.jpg";
-import Banner2 from "../../assets/2019_apoema_FMZT0329.jpg";
+import Banner1 from "../../assets/2019_FelipeMazzucatto_FMZT0302@2x.png";
+import Banner2 from "..//..//assets/2019_FelipeMazzucatto_FMZT0262.png";
 
 import Logo from "../../assets/apoema.png";
 import "./style.css";
@@ -26,7 +26,7 @@ class Banner extends Component {
             fade: true,
             cssEase: 'linear',
             autoplay: true,
-            autoplaySpeed: 2000
+            autoplaySpeed: 4500
         };
         return (
 
