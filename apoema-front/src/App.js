@@ -27,7 +27,7 @@ function App() {
         <Menu />
         <Switch>
           <Route path="/" exact component={HomePage}></Route>
-          <Route path="/colecoes/" component={Vitrine} key={Vitrine}></Route>
+          <Route path="/colecoes/" component={Vitrine} ></Route>
           <Route path="/sobre/" component={Bottom}></Route>
           <Route path="/contato/" component={ContatoPage}></Route>
         </Switch>
