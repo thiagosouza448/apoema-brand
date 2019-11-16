@@ -35,3 +35,14 @@
     url("//db.onlinewebfonts.com/t/4bc98977ba557db3b2f5bb66bff54e25.svg#Champagne & Limousines")
       format("svg");
 }
+
+
+
+
+.Product img {
+  width: 26%;
+}
+
+img.productImg {
+  padding: 51px 90px;
+}

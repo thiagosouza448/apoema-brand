@@ -6,12 +6,10 @@ import Contato from '../Components/Contato/Contato';
 
 
 function ContatoPage() {
+  
   return (
-    <div className="Contato">
-        
+    <div className="Contato">        
       < Contato />
-
-
     </div>
   );
 }
