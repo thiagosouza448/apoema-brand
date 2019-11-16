@@ -30,7 +30,7 @@ class Banner extends Component {
         };
         return (
 
-            <div className="bnd">
+            <div id="Bnd" className="bnd">
                 <Slider ref={c => (this.slider = c)} {...settings}>
 
                     <div className="bnd-item" key={1}>

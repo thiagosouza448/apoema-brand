@@ -52,3 +52,25 @@ a .vitrine-item:hover h4 {
     opacity: 1;
 }
 
+
+
+.prev-and-next-vitrine {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -312px;
+    align-items: center;
+    height: 3px;
+  }
+  .prev-and-next-vitrine button.button {
+      width: 35px;
+      height: 112px;
+      border-radius: 50%;
+      background: #ff000000;
+  }
+  
+  svg.flickity-button-icon {
+      fill: #8c3b3b;
+      
+  }
