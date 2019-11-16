@@ -41,6 +41,17 @@ const RedesSociais = () => {
     return (
         <div className="RedesSociais">
            
+
+           <form>
+               <label>
+               <h3>Newsletter</h3>
+                    <input placeholder="Digite seu email">
+                    </input>
+
+                    <button type="submit" id="submitNewsletter">Enviar</button>
+               </label>
+           </form>
+
             <h3>Redes Sociais</h3>
             <div>
             <img alt="Instagram" width="40px" src={Instagram}></img>

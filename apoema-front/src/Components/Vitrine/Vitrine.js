@@ -11,6 +11,8 @@ import Amarelo from "./VitrineImagem/look05/look05.png";
 
 import "./style.css";
 
+
+
 class Vitrine extends Component {
   constructor(props) {
     super(props);

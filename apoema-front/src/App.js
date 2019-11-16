@@ -6,6 +6,7 @@ import Bottom from "./Components/Bottoms/Bottoms";
 
 import HomePage from "./Pages/Home";
 import ContatoPage from "./Pages/ContatoPage";
+import $ from "jquery";
 
 // looks
 import look01 from "./Pages/ProductPage/Laranja";
@@ -26,7 +27,7 @@ function App() {
         <Menu />
         <Switch>
           <Route path="/" exact component={HomePage}></Route>
-          <Route path="/colecoes/" component={Vitrine}></Route>
+          <Route path="/colecoes/" component={Vitrine} key={Vitrine}></Route>
           <Route path="/sobre/" component={Bottom}></Route>
           <Route path="/contato/" component={ContatoPage}></Route>
         </Switch>

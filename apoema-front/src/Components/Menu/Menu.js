@@ -5,7 +5,7 @@ import $ from "jquery";
 import { Link } from "react-router-dom";
 
 $(function() {
-  $('a[href*="#"]:not([href="#"])').click(function(e) {
+  $('Link[to*="#"]:not([to="#"])').click(function(e) {
     e.preventDefault();
 
     var target = $(this.hash);
