@@ -1,0 +1,50 @@
+.Contato {
+    width: 100%;
+    padding: 66px 0px;
+    text-align: center;
+}
+
+.LogoContato{
+    width: 20%;
+    padding: 10px;
+}
+
+.contato-Form form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+}
+
+.contato-Form form label {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+    color: #801700;
+    font-weight: bold;
+}
+
+
+.contato-Form form label input {
+    border-bottom: 1px solid#801700;
+    height: 35px;
+}
+
+
+input#MensagemContato {
+    border: 1px solid #801700;
+    height: 124px;
+}
+
+
+
+
+form button {
+    color: white;
+    background: #801700;
+    width: 210px;
+    height: 40px;
+    border-radius: 6px;
+}
