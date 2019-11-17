@@ -39,17 +39,170 @@
 
 
 
-.Product img {
-  width: 26%;
+/* PRODUCT PAGE CONTENT  */
+
+button.slick-arrow.slick-next {
+  display: none!important;
 }
 
-img.productImg {
-  padding: 51px 90px;
-
+.Logo {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 31px 0px;
 }
 
-.productImg{
+.Logo img {
+  width: 20%;
+  margin: 0 auto;
+}
 
 
+.prev-and-next-product {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -378px;
+  margin: 0 auto;
+}
+.prev-and-next-product button.button {
+  width: 35px;
+  height: 112px;
+  border-radius: 50%;
+  background: #ff000000;
+}
+svg.flickity-button-icon {
+  fill: #8c3b3b;
+}
+
+
+div#ImagemVitrine .bnd-item img {
+  width: 55%;
+}
+
+
+
+#ImagemVitrine{
+  width: 50%;
+}
+
+
+
+.ProductVitrine {
+  display: flex;
+  justify-content: space-around;
+  max-height: 570px;
+}
+
+
+.TextProd {
+  height: 453px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.TextProd p {
+  width: 51%;
+}
+
+
+
+
+
+.TextProd h3{
+  padding: 0px;
+  margin: 0;
+}
+
+
+
+p#estoque {
+  color: #2c902c;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+button.ComprarProd{
+  color: white;
+    background: #801700;
+    width: 210px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+
+
+.btn {
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
   
 }
+
+.btn:hover {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+
+}
+
+.btn-1 {
+  background: #801700;
+  font-weight: 700;
+}
+.btn-1 svg {
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.btn-1 rect {
+  fill: none;
+  stroke: #801700;
+  stroke-width: 2;
+  stroke-dasharray: 422, 0;
+  transition: all 0.35s linear;
+  
+}
+
+.btn-1:hover {
+  background: rgba(225, 51, 45, 0);
+  font-weight: 900;
+  letter-spacing: 1px;
+  
+}
+.btn-1:hover rect {
+  stroke-width: 5;
+  stroke-dasharray: 15, 310;
+  stroke-dashoffset: 48;
+  transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+  
+}
+
+.menuNav a:hover {
+  color: #8c3b3b;
+}
+
+
+
+
+
+
+
+
