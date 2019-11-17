@@ -21,6 +21,11 @@ import "./Pages/Home";
 import Vitrine from "./Components/Vitrine/Vitrine";
 
 function App() {
+
+  $('document').ready(function() {
+    $(window).scrollTop(0);
+ });
+ 
   return (
     <Router>
       <div className="App">

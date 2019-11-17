@@ -28,18 +28,18 @@
     width: 97%;
 }
 
-h3 {
+.itemBottom h3 {
     text-align: center;
     font-size: 23px;
     margin: 20px;
 }
 
-p {
+.itemBottom p {
     padding: 2px 51px;
     font-size: 17px;
 }
 
-h2{
+.itemBottom  h2{
     text-align: center;
     font-size: 30px;
     margin: 20px;

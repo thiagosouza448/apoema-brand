@@ -12,7 +12,6 @@ const Navigation = () => {
     return (
         <div className="Navigation">
             <ul>
-
                <Link to="/colecoes"><li>Coleções</li></Link>
                 <li>A marca</li>
                 <li>Sobre </li>
@@ -27,9 +26,13 @@ const Sobre = () =>{
 
     return(
         <div className="textFooter">
-            <h3>Sobre</h3>
+            <h3>Sobre a marca</h3>
 
-            <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>         
+            <p>A <b>APOEMA</b> surgiu de um desejo de celebrar a cultura regional brasilieira, olhar cada detalhe da identidade luminosa e repleta de adversidades e agindo sempre com equilíbrio.<br></br>
+            Nas suas coleções procura trazer em tema as raízes brasileiras, ligando com o comtemporâneo e uma personalidade que estampa o espírito do tempo.<br></br>
+            As modelagens, supreposições, texturas, contrastes de cores, estamparia e técnicas manuais.
+            
+              </p>         
         </div>
            
     );
@@ -54,7 +57,7 @@ const RedesSociais = () => {
 
             <h3>Redes Sociais</h3>
             <div>
-            <img alt="Instagram" width="40px" src={Instagram}></img>
+            <a  href="https://www.instagram.com/_apoema/"><img alt="Instagram" width="40px" src={Instagram}></img></a>
             <img alt="facebook" width="40px" src={FaceBook}></img>
            <Link to="/contato"> <img alt="Email" width="40px" src={Email}></img></Link>
             </div>

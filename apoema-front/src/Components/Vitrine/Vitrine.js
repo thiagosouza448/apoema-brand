@@ -40,58 +40,48 @@ class Vitrine extends Component {
 
         <Slider ref={c => (this.slider = c)} {...settings}>
           <Link to="/look01">
-            <a href="">
               <div className="vitrine-item">
                 <div>
                   <img alt="vitrine" src={Laranja}></img>
                   <h4>COMPRAR</h4>
                 </div>
               </div>
-            </a>
           </Link>
 
           <Link to="/look02">
-            <a href="google.com">
               <div className="vitrine-item">
                 <div>
                   <img alt="vitrine" src={VerdeLaranja}></img>
                   <h4>COMPRAR</h4>
                 </div>
               </div>
-            </a>
           </Link>
 
           <Link to="/look03">
-            <a href="google.com">
               <div className="vitrine-item">
                 <div>
                   <img alt="vitrine" src={Macacao}></img>
                   <h4>COMPRAR</h4>
                 </div>
               </div>
-            </a>
           </Link>
 
           <Link to="/look04">
-            <a href="google.com">
               <div className="vitrine-item">
                 <div>
                   <img alt="vitrine" src={Estampa}></img>
                   <h4>COMPRAR</h4>
                 </div>
               </div>
-            </a>
           </Link>
 
           <Link to="/look05">
-            <a href="google.com">
               <div className="vitrine-item">
                 <div>
                   <img alt="vitrine" src={Amarelo}></img>
                   <h4>COMPRAR</h4>
                 </div>
               </div>
-            </a>
           </Link>
         </Slider>
 
