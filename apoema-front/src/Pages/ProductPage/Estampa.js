@@ -78,9 +78,9 @@ class Estampa extends Component {
           <div className="TextProd">
           <div className="menuNav">
           <Link to="/">I N I C I O</Link> &nbsp;/ &nbsp;
-              <Link to="/colecoes"> C O L E Ç Õ E S </Link>&nbsp; / &nbsp; L O O K - ESTAMPA
+              <Link to="/colecoes"> C O L E Ç Õ E S </Link>&nbsp; / &nbsp; L O O K - ESTAMPA CASTANHEIRA
             </div>
-            <h1>Look Estampa</h1>
+            <h1>Look estampa castanheira</h1>
 
             <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a typ</p>
             

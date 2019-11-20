@@ -1,21 +1,21 @@
 import React, { Component } from "react";
 import "./style.css";
 import "../../App.css";
-import $ from "jquery";
+// import $ from "jquery";
 import { Link } from "react-router-dom";
 
-$(function() {
-  $('Link[to*="#"]:not([to="#"])').click(function(e) {
-    e.preventDefault();
+// $(function() {
+//   $('Link[to*="#"]:not([to="#"])').click(function(e) {
+//     e.preventDefault();
 
-    var target = $(this.hash);
+//     var target = $(this.hash);
 
-    if (target.length) {
-      $("html, body").animate({ scrollTop: target.offset().top }, 1000);
-      return false;
-    }
-  });
-});
+//     if (target.length) {
+//       $("html, body").animate({ scrollTop: target.offset().top }, 1000);
+//       return false;
+//     }
+//   });
+// });
 
 class Menu extends Component {
   render() {
@@ -24,7 +24,7 @@ class Menu extends Component {
         <ul>
           <li>
             <Link to="/">
-             A MARCA
+            INICIO
             </Link>
           </li>
           <li>

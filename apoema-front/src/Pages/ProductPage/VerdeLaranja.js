@@ -82,13 +82,13 @@ class VerdeLaranja extends Component {
 
           <div className="menuNav">
           <Link to="/">I N I C I O</Link> &nbsp;/ &nbsp;
-              <Link to="/colecoes"> C O L E Ç Õ E S </Link>&nbsp; / &nbsp; L O O K - MACACÃO
+              <Link to="/colecoes"> C O L E Ç Õ E S </Link>&nbsp; / &nbsp; L O O K - IGARAPÉ
             </div>
 
 
 
 
-            <h1>Look VerdeLaranja</h1>
+            <h1>Look Igarapé</h1>
 
             <p>
               is simply dummy text of the printing and typesetting industry.

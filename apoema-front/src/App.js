@@ -6,7 +6,7 @@ import Bottom from "./Components/Bottoms/Bottoms";
 
 import HomePage from "./Pages/Home";
 import ContatoPage from "./Pages/ContatoPage";
-import $ from "jquery";
+// import $ from "jquery";  
 
 // looks
 import look01 from "./Pages/ProductPage/Laranja";
@@ -22,17 +22,15 @@ import Vitrine from "./Components/Vitrine/Vitrine";
 
 function App() {
 
-  $('document').ready(function() {
-    $(window).scrollTop(0);
- });
- 
+
+
   return (
     <Router>
       <div className="App">
         <Menu />
         <Switch>
           <Route path="/" exact component={HomePage}></Route>
-          <Route path="/colecoes/" component={Vitrine} ></Route>
+          <Route path="/colecoes/" component={Vitrine } ></Route>
           <Route path="/sobre/" component={Bottom}></Route>
           <Route path="/contato/" component={ContatoPage}></Route>
         </Switch>
@@ -50,6 +48,7 @@ function App() {
       </div>
     </Router>
   );
+  
 }
 
 export default App;
