@@ -22,8 +22,8 @@ import Vitrine from "./Components/Vitrine/Vitrine";
 
 function App() {
 
- 
- 
+
+
   return (
     <Router>
       <div className="App">
@@ -48,6 +48,7 @@ function App() {
       </div>
     </Router>
   );
+  
 }
 
 export default App;

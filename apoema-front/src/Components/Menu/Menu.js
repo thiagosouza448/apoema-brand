@@ -24,7 +24,7 @@ class Menu extends Component {
         <ul>
           <li>
             <Link to="/">
-             A MARCA
+            INICIO
             </Link>
           </li>
           <li>

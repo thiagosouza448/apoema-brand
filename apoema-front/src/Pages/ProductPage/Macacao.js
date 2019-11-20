@@ -80,11 +80,11 @@ class Macacao extends Component {
           
           <div className="menuNav">
           <Link to="/">I N I C I O</Link> &nbsp;/ &nbsp;
-              <Link to="/colecoes"> C O L E Ç Õ E S </Link>&nbsp; / &nbsp; L O O K - MACACÃO
+              <Link to="/colecoes"> C O L E Ç Õ E S </Link>&nbsp; / &nbsp; L O O K - AÇAÍ ESPECIAL
             </div>
 
 
-            <h1>Look Macacao</h1>
+            <h1>Look açaí especial</h1>
 
             <p>
               is simply dummy text of the printing and typesetting industry.

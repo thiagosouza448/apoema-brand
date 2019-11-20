@@ -76,9 +76,9 @@ class laranja extends Component {
           <div className="TextProd">
             <div className="menuNav">
             <Link to="/">I N I C I O</Link> &nbsp;/ &nbsp;
-              <Link to="/colecoes"> C O L E Ç Õ E S </Link>&nbsp; / &nbsp; L O O K - LARANJA
+              <Link to="/colecoes"> C O L E Ç Õ E S </Link>&nbsp; / &nbsp; LOOK URUCUM 
             </div>
-            <h1>Look laranja</h1>
+            <h1>Look Urucum</h1>
 
             <p>
               is simply dummy text of the printing and typesetting industry.
